@@ -1,0 +1,39 @@
+{
+  "scoreAnalysisReport": [
+    {
+      "scoreInPercentage": "19%",
+      "minScore": "300",
+      "maxScore": "699",
+      "score": "440",
+      "showIndicator": false
+    },
+    {
+      "scoreInPercentage": "21%",
+      "minScore": "700",
+      "maxScore": "774",
+      "score": "750",
+      "showIndicator": false
+    },
+    {
+      "scoreInPercentage": "16%",
+      "minScore": "775",
+      "maxScore": "799",
+      "score": "792",
+      "showIndicator": false
+    },
+    {
+      "scoreInPercentage": "13%",
+      "minScore": "800",
+      "maxScore": "884",
+      "score": "810",
+      "showIndicator": true
+    },
+    {
+      "scoreInPercentage": "20%",
+      "minScore": "825",
+      "maxScore": "900",
+      "score": "840",
+      "showIndicator": false
+    }
+  ]
+}
