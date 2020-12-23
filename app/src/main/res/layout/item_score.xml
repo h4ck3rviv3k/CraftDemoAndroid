@@ -1,34 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="48dp"
+    android:layout_marginBottom="16dp"
+    android:gravity="center">
 
     <TextView
         android:id="@+id/tv_score_in_percentage"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:text="@string/app_name"
+        android:textStyle="bold" />
 
     <FrameLayout
         android:id="@+id/ll_score_bar"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
         android:layout_toEndOf="@+id/tv_score_in_percentage"
+        android:background="#60F55555"
         android:gravity="center"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/tv_range"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <TextView
-            android:id="@+id/tv_indicator_value"
-            android:background="#fff"
-            android:textColor="#000"
+            android:text="dsds"
+            android:layout_marginStart="30dp"
+            android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cl_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:elevation="16dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="8dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/tv_indicator_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#fff"
+                android:padding="4dp"
+                android:textColor="#000" />
+        </androidx.cardview.widget.CardView>
+
     </FrameLayout>
 
 

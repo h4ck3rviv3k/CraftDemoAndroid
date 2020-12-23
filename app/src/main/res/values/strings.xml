@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CraftDemoAndroid</string>
+    <string name="range">%s - %s</string>
 </resources>
